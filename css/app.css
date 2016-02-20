@@ -1,3 +1,8 @@
+nav{
+  background-color: #039be5;
+  color: #fff;
+}
+
 .card .card-content{
   padding-top: 0px;
 }
@@ -33,14 +38,12 @@
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 4px;
 }
-.card .card-action a{
-  display: block;
-  float:left;
-}
+
 .card .card-action .card-meta{
   display: block;
   float: right;
   padding: 0px;
+  color:#039be5;
 }
 .card .card-action:after{
   content: "";
@@ -51,4 +54,27 @@
 .card .card-action .category{
   margin-right: 2px;
   float: right;
+}
+
+.card .collection a{
+  color: #039be5;
+}
+
+.card .collection .active{
+  background-color: #039be5;
+  color: #fff;
+}
+.card .card-action a{
+  display: block;
+  float:left;
+  color: #039be5;
+}
+
+.pagination li.active{
+  background-color: #039be5;
+  color: #fff;
+}
+footer.page-footer{
+  background-color: #039be5;
+  color: #fff;
 }

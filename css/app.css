@@ -104,10 +104,22 @@ footer.page-footer{
 }
 
 footer.page-footer .footer-copyright{
+  height: 48px;
   background-color: rgba(51,51,51,0);
 }
 
 .btn-big{
   width: 95%;
   margin: 2px 13px;
+}
+
+.news-img{
+  margin: 10px 10px 5px 0px;;
+
+  width: 300px;
+  float: left;
+}
+
+.text{
+  float: right;
 }

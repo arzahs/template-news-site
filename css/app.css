@@ -102,3 +102,12 @@ footer.page-footer{
   color: #fff;
 
 }
+
+footer.page-footer .footer-copyright{
+  background-color: rgba(51,51,51,0);
+}
+
+.btn-big{
+  width: 95%;
+  margin: 2px 13px;
+}

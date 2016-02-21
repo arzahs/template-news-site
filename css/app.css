@@ -123,3 +123,7 @@ footer.page-footer .footer-copyright{
 .text{
   float: right;
 }
+.add-news button{
+  width: 30%;
+  float: right;
+}

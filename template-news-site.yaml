@@ -1,0 +1,13 @@
+namespace: template-news-site
+template-news-site:
+  defines: runnable
+  metadata:
+    name: template-news-site
+    description: >-
+      This is a simple static HTML news website with different pages for news,
+      login, registration and adding news.
+    icon: https://emojiapi.dev/api/v1/newspaper.svg
+  containers:
+    template-news-site:
+      build: .
+      image: env-1757.registry.local/template-news-site:master-810c6ff
